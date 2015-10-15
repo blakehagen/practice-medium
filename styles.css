@@ -18,15 +18,22 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Myriad Set Pro", sans-serif;
+	margin: 0;
 }
 
 	header h3 {
-		margin: 0;
 		font-size: 14px;
-		color: #00AB6B;
 		line-height: 37px;
 		text-align: center;
 	}
+
+.green {
+	color: #00AB6B;
+}
+
+h3 {
+	font-size: 14px;
+}
 
 .mid {
 	color: #828282;
@@ -50,13 +57,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 150px 0 0;
     float: right;
     padding-top: 22px;
-}
-
-.i {
-    border: 1px solid red;
-    height: 100%;
-    display: inline-block;
-
 }
 	
 .gray {
@@ -107,6 +107,41 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 10px 8px 0 8px;
 	border: 1px solid #00AB6B;
 	border-radius: 50px;
+}
+
+.author-recommended-container {
+	width: 40%;
+	margin: 50px auto;
+	/*border: 1px solid black;*/
+}
+
+.author {
+	width: 49%;
+	height: 40px;
+	display: inline-block;
+	text-align: left;
+}
+
+.recommended {
+	width: 49%;
+	display: inline-block;
+	float: right;
+	text-align: right;
+
+}
+
+.sml-img {
+	height: 100%;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	margin: 0;
+	float: left;
+
+}
+
+.sml-text {
+	display: inline-block;
+	margin: 5px 5px;
 }
 
 
