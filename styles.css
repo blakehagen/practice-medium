@@ -35,6 +35,28 @@ h3 {
 	font-size: 14px;
 }
 
+h1 {
+	font-family: "arial";
+	font-size: 44px;
+	color: #333333;
+	margin-top: 30px;
+}
+
+h2 {
+	font-family: "Myriad Set Pro", serif;
+	font-size: 20px;
+	color: #333333;
+	line-height: 34px;
+}
+
+.bigger-h2 {
+	font-family: "arial";
+	font-size: 38px;
+	margin-top: 30px;
+}
+
+
+
 .mid {
 	color: #828282;
 	line-height: 2px;
@@ -87,6 +109,7 @@ h3 {
 .left {
 	float: left;
 	text-align: left;
+	margin-left: 10px;
 }
 
 .search-button {
@@ -104,14 +127,14 @@ h3 {
 .sign-in-button {
 	width: 150px;
 	height: 37px;
-	margin: 10px 8px 0 8px;
+	margin: 10px 10px 0 8px;
 	border: 1px solid #00AB6B;
 	border-radius: 50px;
 }
 
 .author-recommended-container {
-	width: 40%;
-	margin: 50px auto;
+	width: 45%;
+	margin: 50px auto 0px;
 	/*border: 1px solid black;*/
 }
 
@@ -144,6 +167,10 @@ h3 {
 	margin: 5px 5px;
 }
 
+.main-content-container {
+	width: 45%;
+	margin: 40px auto;
+}
 
 
 
