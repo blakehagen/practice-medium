@@ -51,8 +51,12 @@ h2 {
 
 .bigger-h2 {
 	font-family: "arial";
-	font-size: 38px;
+	font-size: 34px;
 	margin-top: 30px;
+}
+
+.smaller-h2 {
+	font-size: 24px;
 }
 
 
@@ -170,6 +174,26 @@ h2 {
 .main-content-container {
 	width: 45%;
 	margin: 40px auto;
+}
+
+.footer {
+	margin-top: 60px;
+	height: 400px;
+	background-color: #020733;
+    background-image: url(https://cdn-images-1.medium.com/max/2000/1*OlgaspZ00W78xQY-HE9Wsg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 25px;
+}
+
+.footer-text-container {
+	width: 30%;
+	margin: 0 auto;
+	padding: 65px 0;	
+	text-align: center;
+}
+
+.footer-text-container h2 {
+	color: #fff;
 }
 
 
