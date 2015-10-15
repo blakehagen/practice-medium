@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	line-height: 58px;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Myriad Set Pro", sans-serif;
+}
+
+	header h3 {
+		margin: 0;
+		font-size: 14px;
+		color: #00AB6B;
+		line-height: 37px;
+		text-align: center;
+	}
+
+.mid {
+	color: #828282;
+	line-height: 2px;
+	letter-spacing: 1px;
+	margin: 0;
+
+}
+
+.text {
+	height: 100%;
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin: 0 0 0 165px;
+}
+
+.text2 {
+    height: 100%;
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin: 0 150px 0 0;
+    float: right;
+    padding-top: 22px;
+}
+
+.i {
+    border: 1px solid red;
+    height: 100%;
+    display: inline-block;
+
+}
+	
+.gray {
+	color: #B3B3B3;
+}
+
+
+.header-item {
+	width: 33%;
+	height: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	/*border: 1px solid green;*/
+	text-align: center;
+
+}
+
+	img {
+		height: 70%;
+		margin-top: 10px;
+	}
+
+.right {
+	float: right;
+	text-align: right;
+}	
+
+.left {
+	float: left;
+	text-align: left;
+}
+
+.search-button {
+	width: 200px;
+	height: 37px;
+	margin: 10px 0px;
+	border: 1px solid #D9D9D9;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 37px;
+	font-family: "Myriad Set Pro", sans-serif;
+	color: #D9D9D9	;
+}
+
+.sign-in-button {
+	width: 150px;
+	height: 37px;
+	margin: 10px 8px 0 8px;
+	border: 1px solid #00AB6B;
+	border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
