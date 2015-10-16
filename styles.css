@@ -13,19 +13,22 @@ header {
 	height: 60px;
 	line-height: 58px;
 	text-align: center;
-	/*border: 1px solid red;*/
 }
 
-h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6 {
 	font-family: "Myriad Set Pro", sans-serif;
 	margin: 0;
 }
 
-	header h3 {
-		font-size: 14px;
-		line-height: 37px;
-		text-align: center;
-	}
+p {
+	line-height: 0;
+}
+
+.header-h3 {
+	font-size: 14px;
+	line-height: 37px;
+	text-align: center;
+}
 
 .green {
 	color: #00AB6B;
@@ -59,32 +62,6 @@ h2 {
 	font-size: 24px;
 }
 
-
-
-.mid {
-	color: #828282;
-	line-height: 2px;
-	letter-spacing: 1px;
-	margin: 0;
-
-}
-
-.text {
-	height: 100%;
-    /*border: 1px solid red;*/
-    display: inline-block;
-    margin: 0 0 0 165px;
-}
-
-.text2 {
-    height: 100%;
-    /*border: 1px solid red;*/
-    display: inline-block;
-    margin: 0 150px 0 0;
-    float: right;
-    padding-top: 22px;
-}
-	
 .gray {
 	color: #B3B3B3;
 }
@@ -95,15 +72,34 @@ h2 {
 	height: 100%;
 	margin: 0 auto;
 	display: inline-block;
-	/*border: 1px solid green;*/
 	text-align: center;
-
 }
 
-	img {
-		height: 70%;
-		margin-top: 10px;
-	}
+.header-item-mid {
+	width: 9%;
+	height: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+
+img {
+	height: 70%;
+	margin-top: 10px;
+}
+
+.img-special {
+	float: left;	
+	margin: 8px 0;
+}
+
+.mid-sml-text {
+	height: 30px;
+	text-align: left;
+	float: right;
+	line-height: 5px;
+	margin-top: 20px;
+}
 
 .right {
 	float: right;
@@ -114,6 +110,7 @@ h2 {
 	float: left;
 	text-align: left;
 	margin-left: 10px;
+	clear: both;
 }
 
 .search-button {
@@ -139,14 +136,12 @@ h2 {
 .author-recommended-container {
 	width: 45%;
 	margin: 50px auto 0px;
-	/*border: 1px solid black;*/
 }
 
 .author {
 	width: 49%;
 	height: 40px;
 	display: inline-block;
-	text-align: left;
 }
 
 .recommended {
@@ -163,7 +158,6 @@ h2 {
 	border-radius: 100%;
 	margin: 0;
 	float: left;
-
 }
 
 .sml-text {
@@ -195,11 +189,6 @@ h2 {
 .footer-text-container h2 {
 	color: #fff;
 }
-
-
-
-
-
 
 
 
