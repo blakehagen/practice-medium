@@ -76,7 +76,7 @@ h2 {
 }
 
 .header-item-mid {
-	width: 9%;
+	width: 10%;
 	height: 100%;
 	margin: 0 auto;
 	display: inline-block;
@@ -99,6 +99,11 @@ img {
 	float: right;
 	line-height: 5px;
 	margin-top: 20px;
+}
+
+.subtext {
+	color: #333;
+	letter-spacing: 1px;
 }
 
 .right {
