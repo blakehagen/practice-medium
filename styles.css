@@ -73,14 +73,16 @@ h2 {
 	margin: 0 auto;
 	display: inline-block;
 	text-align: center;
+	/*border: 1px solid green;*/
 }
 
 .header-item-mid {
-	width: 10%;
+	width: 142px;
 	height: 100%;
-	margin: 0 auto;
+	margin: 3px auto;
 	display: inline-block;
 	text-align: center;
+	/*border: 1px solid red;*/
 }
 
 img {
