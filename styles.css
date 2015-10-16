@@ -62,6 +62,10 @@ h2 {
 	font-size: 24px;
 }
 
+.footer-text-h2 {
+	font-size: 24px;
+}
+
 .gray {
 	color: #B3B3B3;
 }
@@ -117,7 +121,6 @@ img {
 	float: left;
 	text-align: left;
 	margin-left: 10px;
-	clear: both;
 }
 
 .search-button {
@@ -129,7 +132,7 @@ img {
 	text-align: center;
 	line-height: 37px;
 	font-family: "Myriad Set Pro", sans-serif;
-	color: #D9D9D9	;
+	color: #D9D9D9;
 }
 
 .sign-in-button {
@@ -141,7 +144,7 @@ img {
 }
 
 .author-recommended-container {
-	width: 45%;
+	width: 600px;
 	margin: 50px auto 0px;
 }
 
@@ -156,7 +159,6 @@ img {
 	display: inline-block;
 	float: right;
 	text-align: right;
-
 }
 
 .sml-img {
@@ -173,7 +175,7 @@ img {
 }
 
 .main-content-container {
-	width: 45%;
+	width: 650px;
 	margin: 40px auto;
 }
 
@@ -187,7 +189,7 @@ img {
 }
 
 .footer-text-container {
-	width: 30%;
+	width: 35%;
 	margin: 0 auto;
 	padding: 65px 0;	
 	text-align: center;
@@ -195,6 +197,122 @@ img {
 
 .footer-text-container h2 {
 	color: #fff;
+}
+
+.media-right {
+}
+
+.media-middle {
+}
+
+.media-left {
+}
+
+.img-special-media {
+	display: none;
+}
+
+.input-media {
+	display: none;
+}
+
+
+
+@media (max-width: 1125px){
+	.media-right {
+		width: 44%;
+	}
+	.media-middle {
+		width: 20%;
+	}
+
+}
+
+@media (max-width: 850px){
+	.media-left {
+		width: 30%;
+	}
+
+	.media-right {
+		width: 60%;
+	}
+
+	.media-middle {
+		display: none;
+		width: 10%;
+		border: 1px solid red;
+	}
+
+	.img-special-media {
+		display: inline-block;
+		padding-left: 10px;
+		border-left: 1px solid #ddd;
+	}
+
+	.author-recommended-container {
+		width: 85%;
+	}
+
+	.main-content-container {
+		width: 85%;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	.bigger-h2 {
+		font-size: 26px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.mid-sml-text {
+		display: none;
+	}
+
+	.search-button {
+			display: none;
+	}
+
+	.input-media {
+		width: 37px;
+		height: 37px;
+		border-radius: 100%;
+		display: inline-block;
+	}
+
+	.footer-text-container {
+		width: 75%;
+		margin: 0 auto;
+		padding: 165px 0;	
+		text-align: center;
+		padding: 85px 0;	
+	
+	}
+
+	.footer-text-h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+}
+
+
+@media (max-width: 600px){
+	.recommended {
+		width: 100%;
+		text-align: left;
+		margin: 20px 0;
+	}
+
+	.author {
+		width: 100%;
+		height: 40px;
+	}
+
 }
 
 

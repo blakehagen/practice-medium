@@ -3,16 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<title>Medium Clone</title>
 </head>
 <body>
 	<header>
-		<div class="header-item left">
+		<div class="header-item left media-left">
 			<img src="medium-logo.png"/>
+			<img class="img-special-media" src="https://cdn-images-1.medium.com/fit/c/64/64/1*bs9PbxDndAW7mmqve3EQ-w.jpeg"/>
+
 		</div>
 
-		<div class="header-item">
+		<div class="header-item media-middle">
 
 			<div class="header-item-mid">
 				<img class="img-special" src="https://cdn-images-1.medium.com/fit/c/64/64/1*bs9PbxDndAW7mmqve3EQ-w.jpeg"/>
@@ -24,9 +27,12 @@
 
 		</div>
 
-			<div class="header-item right">
-				<input class="search-button" type="text" placeholder="Search Medium">
-				</input>			
+			<div class="header-item right media-right">
+				<input class="search-button" type="text" placeholder="&#xf002;&nbsp;&nbsp; Search Medium" style="font-family: Myriad Set Pro, FontAwesome">
+				</input>	
+
+				<input class="search-button input-media" type="text" placeholder="&#xf002;" style="font-family: Myriad Set Pro, FontAwesome">
+				</input>		
 
 				<div class="sign-in-button right">
 					<h3 class="green header-h3">Sign in / Sign up</h3>
@@ -38,12 +44,12 @@
 		<div class="author">
 			<img class="sml-img"src="https://cdn-images-1.medium.com/fit/c/72/72/1*oZu4yGg3LiS4YBe_HnOKew.jpeg">
 			<div class="sml-text">
-				<h3 class="green">Author Name</h3>
+				<h3 class="green">Blake Marshall</h3>
 				<h3 class="gray">October 15, 2015 &middot; 3 min read</h3>
 			</div>
 		</div>
 		<div class="recommended">
-			<h3 class="gray">&#10025; Vlad Aituganov and 54 others recommended</h3>
+			<h3 class="gray"><i class="fa fa-heart"></i> &nbsp;Jackson Taylor and 54 others recommended</h3>
 		</div>
 	</div>
 
@@ -66,7 +72,7 @@
 		<div class="footer-text-container">
 			<h2 class="bigger-h2">Make the Medium you like.</h2>
 			<p></p>
-			<h2 class="smaller-h2">Tailor your account to follow the people and topics you care about most.</h2>
+			<h2 class="footer-text-h2">Tailor your account to follow the people and topics you care about most.</h2>
 		</div>
 		
 
